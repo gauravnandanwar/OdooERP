@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-28T17:38:40Z" name="FREE CRM Application Test Automation Test Suite" finished-at="2021-12-28T17:38:53Z" duration-ms="13217">
+    <groups>
+    </groups>
+    <test started-at="2021-12-28T17:38:40Z" name="Free CRM App Test Cases" finished-at="2021-12-28T17:38:53Z" duration-ms="13217">
+      <class name="com.odoo.qa.testcases.ReceiptCreationTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odoo.qa.testcases.ReceiptCreationTestCase@7fe8ea47]" started-at="2021-12-28T23:08:40Z" name="setUp" finished-at="2021-12-28T23:08:51Z" duration-ms="11262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnReceipt()[pri:0, instance:com.odoo.qa.testcases.ReceiptCreationTestCase@7fe8ea47]" started-at="2021-12-28T23:08:51Z" name="clickOnReceipt" finished-at="2021-12-28T23:08:53Z" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnReceipt -->
+      </class> <!-- com.odoo.qa.testcases.ReceiptCreationTestCase -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>
