@@ -14,6 +14,9 @@ public class HomePage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
+	public String getHomePageTitle() {
+		return driver.getTitle();
+	}
 	public void ClickOnReceiptButton() {
 		receiptButton.click();
 	}

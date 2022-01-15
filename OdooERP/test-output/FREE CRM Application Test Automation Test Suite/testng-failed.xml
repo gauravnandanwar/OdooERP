@@ -6,13 +6,13 @@
   </listeners>
   <test name="Free CRM App Test Cases(failed)">
     <classes>
-      <class name="com.odoo.qa.testcases.ReceiptCreationTestCase">
+      <class name="com.odoo.qa.testcases.LogInTestCase">
         <methods>
-          <include name="teardown"/>
           <include name="setUp"/>
-          <include name="clickOnReceipt"/>
+          <include name="teardown"/>
+          <include name="verifyLogIn"/>
         </methods>
-      </class> <!-- com.odoo.qa.testcases.ReceiptCreationTestCase -->
+      </class> <!-- com.odoo.qa.testcases.LogInTestCase -->
     </classes>
   </test> <!-- Free CRM App Test Cases(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
