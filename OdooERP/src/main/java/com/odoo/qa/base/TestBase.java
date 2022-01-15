@@ -39,7 +39,7 @@ public class TestBase {
 
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"/Users/gauravnandanwar/eclipse-workspace/OdooERP/chromedriver");
+					"/Users/gauravnandanwar/git/repository/OdooERP/chromedriver");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");

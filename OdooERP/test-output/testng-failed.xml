@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test name="Free CRM App Test Cases(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.odoo.qa.testcases.ReceiptCreationTestCase">
+      <class name="com.odoo.qa.testcases.LogInTestCase">
         <methods>
-          <include name="teardown"/>
           <include name="setUp"/>
-          <include name="clickOnReceipt"/>
+          <include name="teardown"/>
+          <include name="logIn"/>
         </methods>
-      </class> <!-- com.odoo.qa.testcases.ReceiptCreationTestCase -->
+      </class> <!-- com.odoo.qa.testcases.LogInTestCase -->
     </classes>
-  </test> <!-- Free CRM App Test Cases(failed) -->
-</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

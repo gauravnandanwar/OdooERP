@@ -10,9 +10,11 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.odoo.qa.base.TestBase;
 
@@ -99,5 +101,10 @@ public class TestUtil extends TestBase {
 //		js.executeScript("$.growl.warning({ title: 'Warning!', message: 'your warning message goes here' });");
 		Thread.sleep(5000);
 	}
+	
+	/*
+	 * public static void explicitWait() { WebDriverWait w = new
+	 * WebDriverWait(driver,5); w.until(driver.findElement(By.id("323").ele)) }
+	 */
 
 }

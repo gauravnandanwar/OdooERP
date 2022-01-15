@@ -23,16 +23,17 @@ public class LogInPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	public String LogInPageValidateTile() {
-		return driver.getTitle();
-
-	}
-
 	public HomePage LogInTest(String un, String pwd) {
 		username.sendKeys(un);
 		password.sendKeys(pwd);
 		logInButton.click();
-		
+
 		return new HomePage();
 	}
+
+	public String LogInPageValidateTitle() {
+		return driver.getTitle();
+
+	}
+
 }
